@@ -12,6 +12,7 @@ package mycalculator;
 public class Authors {
 
     public static final String ASL = "Alejandro Sacristan Leal";
-
+    
+    public static final String JPS = "Juan Pablo Sanchez Gaitan";
     
 }

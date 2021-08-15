@@ -21,8 +21,8 @@ public class Main {
 
         // Alejandro Sacristan Leal -> ASL
         pruebaASL();
-
-
+        // Juan Pablo Sanchez Gaitan -> JPSG
+        pruebaJPSG();
 
     }
 
@@ -31,7 +31,7 @@ public class Main {
 
         double a = 50;
         double b = 2;
-        String AutorName= "Alejandro Sacristan Leal";
+        String AutorName = "Alejandro Sacristan Leal";
 
         CalculadoraASL asl = new CalculadoraASL(a, b, AutorName);
 
@@ -43,7 +43,22 @@ public class Main {
         System.out.println(a + " / " + b + " = " + asl.divide());
         System.out.println(" ");
     }
-    
-    
+
+    public static void pruebaJPSG() {
+
+        double a = 30;
+        double b = 54;
+        String AutorName = "Juan Pablo SAnchez Gaitan";
+
+        CalculadoraASL asl = new CalculadoraASL(a, b, AutorName);
+
+        System.out.println(" ");
+        System.out.println(asl.about());
+        System.out.println(a + " + " + b + " = " + asl.add());
+        System.out.println(a + " - " + b + " = " + asl.substract());
+        System.out.println(a + " * " + b + " = " + asl.multiply());
+        System.out.println(a + " / " + b + " = " + asl.divide());
+        System.out.println(" ");
+    }
 
 }
