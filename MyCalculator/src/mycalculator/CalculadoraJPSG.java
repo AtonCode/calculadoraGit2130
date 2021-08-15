@@ -1,6 +1,6 @@
 package mycalculator;
 
-public class CalculadoraASL implements ICalculator {
+public class CalculadoraJPSG implements ICalculator {
 
     @Override
     public double add(double a, double b) {
@@ -24,6 +24,6 @@ public class CalculadoraASL implements ICalculator {
 
     @Override
     public String about() {
-        return "Calculadora es implementada por : " + Authors.ASL;
+        return "Calculadora implementada por " + Authors.JPSG;
     }
 }
