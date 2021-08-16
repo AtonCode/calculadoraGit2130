@@ -24,6 +24,9 @@ public class Main {
         // Juan Pablo Sanchez Gaitan -> JPSG
         pruebaJPSG();
 
+        pruebaNDVO();
+        //Nicolas Daniel Vargas Ortiz -> NDVO
+
     }
 
     // Funcion Alejandro Sacristan Leal -> ASL
@@ -54,6 +57,21 @@ public class Main {
         System.out.println("Resta: " + a + " - " + b + " = " + jps.substract(a, b));
         System.out.println("Multiplicacion: " + a + " * " + b + " = " + jps.multiply(a, b));
         System.out.println("Division: " + a + " / " + b + " = " + jps.divide(a, b));
+    }
+
+    //Prueba Nicolas Vargas
+    public static void pruebaNDVO() {
+
+        CalculadoraNDVO NV = new CalculadoraNDVO();
+        double a=12;
+        double b=6;
+        System.out.println("\n");
+
+        System.out.println(NV.about());
+        System.out.println(a + " + " + b + " = " + NV.add(a, b));
+        System.out.println(a + " - " + b + " = " + NV.substract(a, b));
+        System.out.println(a + " * " + b + " = " + NV.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + NV.divide(a, b));
     }
 
 }
