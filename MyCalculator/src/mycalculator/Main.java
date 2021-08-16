@@ -65,9 +65,8 @@ public class Main {
         CalculadoraNDVO NV = new CalculadoraNDVO();
         double a=12;
         double b=6;
-        System.out.println("\n");
 
-        System.out.println(NV.about());
+        System.out.println("\n"+NV.about());
         System.out.println(a + " + " + b + " = " + NV.add(a, b));
         System.out.println(a + " - " + b + " = " + NV.substract(a, b));
         System.out.println(a + " * " + b + " = " + NV.multiply(a, b));

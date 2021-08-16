@@ -15,6 +15,6 @@ public class CalculadoraNDVO implements ICalculator {
 
     @Override
     public String about() {
-        return ("Calculator implemented by: " + Authors.NDVO);
+        return ("Calculadora implementada por: " + Authors.NDVO);
     }
 }
